@@ -1,0 +1,83 @@
+=== ARBOL DE APPLE ===
+- Apple
+    - Celulares iPhone
+        - iPhone 12
+            - iPhone 12 mini
+        - iPhone 13
+            - iPhone 13 Pro
+        - iPhone 15
+    - Mac
+    - AirPods
+        - AirPods 4
+            - AirPods 4 con cancelacion de ruido
+        - AirPods 5
+        - AirPods 3
+
+=== PROPIEDADES ===
+Raiz: Apple
+Total de nodos: 13
+Total de hojas: 7
+Nodos internos: 6
+Grado del arbol: 3
+Altura del arbol: 3
+Numero de niveles: 4
+
+=== PROFUNDIDAD ===
+Celulares iPhone: profundidad 1
+Mac: profundidad 1
+iPhone 12: profundidad 2
+iPhone 12 mini: profundidad 3
+AirPods 4 con cancelacion de ruido: profundidad 3
+
+=== GRADO DE NODOS ===
+Apple: grado 3
+Celulares iPhone: grado 3
+Mac: grado 0
+iPhone 12: grado 1
+AirPods 4: grado 1
+
+=== TABLA DE METRICAS ===
+Nodo                                   |  G |  P |  A | Tipo
+Apple                                  |  3 |  0 |  3 | Raiz / interno
+Celulares iPhone                       |  3 |  1 |  2 | Interno
+iPhone 12                              |  1 |  2 |  1 | Interno
+iPhone 12 mini                         |  0 |  3 |  0 | Hoja
+iPhone 13                              |  1 |  2 |  1 | Interno
+iPhone 13 Pro                          |  0 |  3 |  0 | Hoja
+iPhone 15                              |  0 |  2 |  0 | Hoja
+Mac                                    |  0 |  1 |  0 | Hoja
+AirPods                                |  3 |  1 |  2 | Interno
+AirPods 4                              |  1 |  2 |  1 | Interno
+AirPods 4 con cancelacion de ruido     |  0 |  3 |  0 | Hoja
+AirPods 5                              |  0 |  2 |  0 | Hoja
+AirPods 3                              |  0 |  2 |  0 | Hoja
+
+=== CAMINOS ===
+Apple -> Celulares iPhone -> iPhone 12 -> iPhone 12 mini
+Longitud: 3 aristas
+Apple -> AirPods -> AirPods 4 -> AirPods 4 con cancelacion de ruido
+Longitud: 3 aristas
+
+=== COMPARACION ===
+Altura manual: 3
+Altura Java: 3
+COINCIDEN
+
+=== NUEVO NIVEL ===
+Nueva altura: 4
+Nuevos niveles: 5
+- Apple
+    - Celulares iPhone
+        - iPhone 12
+            - iPhone 12 mini
+                - Funda para iPhone 12 mini
+        - iPhone 13
+            - iPhone 13 Pro
+        - iPhone 15
+    - Mac
+    - AirPods
+        - AirPods 4
+            - AirPods 4 con cancelacion de ruido
+        - AirPods 5
+        - AirPods 3
+PS C:\Users\johan\Desktop\02-propiedades-arboles> 
