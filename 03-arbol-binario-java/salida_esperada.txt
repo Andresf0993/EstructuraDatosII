@@ -1,0 +1,34 @@
+
+=== RAÍZ E HIJOS ===
+Raíz: Área general
+Hijo izquierdo: Ecuaciones
+Hijo derecho: Figuras
+
+=== ÁRBOL COMPLETO ===
+RAÍZ -> Área general
+   IZQ -> Ecuaciones
+      IZQ -> Ecuación lineal: (2x+4=10)
+      DER -> Ecuación cuadrática: (x^2-5x+6=0)
+   DER -> Figuras
+      IZQ -> Área del triángulo: (A=bh/2)
+      DER -> Área del círculo: (A=pi r^2)
+
+=== PROPIEDADES ===
+Nodos: 7
+Hojas: 4
+Altura: 2
+Grado de A: 2
+¿D es hoja?: true
+¿A es hoja?: false
+
+=== CONTROL DE NULL ===
+Hijo izquierdo de D: null
+D no tiene hijo izquierdo; la referencia es null.
+
+
+Hijo izquierdo de B: Ecuación lineal: (2x+4=10)
+Ecuación lineal: (2x+4=10)
+
+=== ÁRBOL VACÍO ===
+El árbol está vacío.
+PS C:\Users\Andre\OneDrive\Desktop\tranajos\arbol> 

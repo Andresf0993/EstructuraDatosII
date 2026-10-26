@@ -1,0 +1,18 @@
+======================================
+ACTIVIDAD: EXPLORADORES DEL ?RBOL
+======================================
+
+PREORDEN:
+50 - Laptop ($2500.0)  30 - Monitor ($800.0)  20 - Teclado ($300.0)  10 - Mouse ($150.0)  25 - Aud?fonos ($250.0)  40 - Impresora ($600.0)  70 - Tablet ($1200.0)  60 - C?mara ($900.0)  80 - Celular ($1500.0)  
+
+INORDEN:
+10 - Mouse ($150.0)  20 - Teclado ($300.0)  25 - Aud?fonos ($250.0)  30 - Monitor ($800.0)  40 - Impresora ($600.0)  50 - Laptop ($2500.0)  60 - C?mara ($900.0)  70 - Tablet ($1200.0)  80 - Celular ($1500.0)  
+
+POSTORDEN:
+10 - Mouse ($150.0)  25 - Aud?fonos ($250.0)  20 - Teclado ($300.0)  40 - Impresora ($600.0)  30 - Monitor ($800.0)  60 - C?mara ($900.0)  80 - Celular ($1500.0)  70 - Tablet ($1200.0)  50 - Laptop ($2500.0)  
+
+POR NIVELES:
+50 - Laptop ($2500.0)  30 - Monitor ($800.0)  70 - Tablet ($1200.0)  20 - Teclado ($300.0)  40 - Impresora ($600.0)  60 - C?mara ($900.0)  80 - Celular ($1500.0)  10 - Mouse ($150.0)  25 - Aud?fonos ($250.0)  
+
+?Inorden devuelve las claves ordenadas?
+true
