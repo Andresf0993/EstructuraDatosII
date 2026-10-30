@@ -1,36 +1,34 @@
-/**
- * Representa un vértice (nodo) del grafo.
- *
- * <p>En el dominio elegido (transporte), cada vértice es una ciudad que actúa
- * como terminal o estación de una red de rutas terrestres de Colombia.</p>
- *
- * <p>Formalmente, el conjunto V del grafo G = (V, A) es el conjunto de objetos
- * {@code Vertice} registrados en {@link Grafo}.</p>
- */
-class Vertice {
+public class Vertice {
+    private final String id;
+    private final String lugar;
+    private int grado;
+    private int gradoSalida;
+    private int gradoEntrada;
 
-    /** Identificador único del vértice (se usa como llave en las aristas). */
-    String nombre;
-
-    /** Departamento al que pertenece la ciudad (dato descriptivo adicional). */
-    String departamento;
-
-    /**
-     * Crea un vértice.
-     *
-     * @param nombre       nombre único de la ciudad
-     * @param departamento departamento donde se ubica
-     */
-    Vertice(String nombre, String departamento) {
-        if (nombre == null || nombre.isBlank()) {
-            throw new IllegalArgumentException("El nombre del vértice no puede ser vacío");
-        }
-        this.nombre = nombre;
-        this.departamento = departamento;
+    public Vertice(String id, String lugar) {
+        this.id = id;
+        this.lugar = lugar;
     }
 
-    @Override
-    public String toString() {
-        return nombre + " (" + departamento + ")";
+    public String getId() { return id; }
+    public String getLugar() { return lugar; }
+    public int getGrado() { return grado; }
+    public int getGradoSalida() { return gradoSalida; }
+    public int getGradoEntrada() { return gradoEntrada; }
+
+    void registrarAristaNoDirigida() {
+        grado++;
+        gradoSalida++;
+        gradoEntrada++;
+    }
+
+    void registrarSalidaDirigida() {
+        grado++;
+        gradoSalida++;
+    }
+
+    void registrarEntradaDirigida() {
+        grado++;
+        gradoEntrada++;
     }
 }
